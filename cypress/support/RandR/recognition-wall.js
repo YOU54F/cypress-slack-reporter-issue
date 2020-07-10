@@ -32,7 +32,7 @@ const AWARD_CHOSEN_BUTTON = ".award_chosen";
 
 export function goToRecognitionWall() {
     cy
-        .visit(Cypress.env("baseUrl") + "/SocialRecognition")
+        .visit("www.google.com")
         .location("pathname")
         .should("include", "/SocialRecognition");
 }

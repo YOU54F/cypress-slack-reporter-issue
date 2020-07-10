@@ -14,8 +14,6 @@ const SKELETON_HOLDER_2 = 'section > .sc-jWBwVP > :nth-child(2) > [data-testid=s
 describe("Rewards & Recognition", () => {
     before(() => {
         cy.fixture("users/staging.user").as("user");
-        cy.task('queryDb', "UPDATE `featuretoggle` SET `status` = 'always-active' WHERE `key` = 'srw-new-filters'")
-        cy.clearLocalStorage()
     });
 
     beforeEach(() => {

@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://site1.rewardgateway.dev/",
+  "baseUrl": "https://google.com/",
   "pageLoadTimeout": 40000,
   "requestTimeout": 40000,
   "defaultCommandTimeout": 20000,
