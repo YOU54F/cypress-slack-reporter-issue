@@ -1,0 +1,26 @@
+{
+  "baseUrl": "https://site1.rewardgateway.dev/",
+  "pageLoadTimeout": 40000,
+  "requestTimeout": 40000,
+  "defaultCommandTimeout": 40000,
+  "responseTimeout": 40000,
+  "waitForAnimations": true,
+  "projectId": "5eapb9",
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "chromeWebSecurity": false,
+  "env": {
+    "environment": "__PROJECT_APP_ENV__",
+    "RETRIES": 1,
+    "db": {
+      "user": "__PROJECT_DB_USER__",
+      "password": "__PROJECT_DB_PASS__",
+      "host": "__PROJECT_DB_HOST__",
+      "database": "__PROJECT_DB_NAME__"
+    }
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "plugins": [
+      "cypress"
+    ],
+    "env": {
+      "cypress/globals": true,
+      "amd": true
+    },
+    "extends": [
+      "plugin:cypress/recommended"
+    ]
+  }

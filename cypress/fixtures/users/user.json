@@ -1,0 +1,8 @@
+{
+  "fe_name": "User",
+  "fe_email": "user@rewardgateway.com",
+  "fe_password": "password",
+  "be_name": "RMUser",
+  "be_email": "user@rewardgateway.com",
+  "be_password": "password"
+}
