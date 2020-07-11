@@ -1,4 +1,4 @@
-# cypress-web-tests
+# cypress-slack-reporter Issue #650
 
 Run
 - Yarn
