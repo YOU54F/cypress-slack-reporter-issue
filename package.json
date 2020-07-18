@@ -20,9 +20,7 @@
     "eslint-plugin-cypress": "2.11.1",
     "eslint-plugin-react": "7.20.3",
     "mocha": "8.0.1",
-    "mocha-junit-reporter": "1.23.3",
-    "mocha-junit-reporters": "1.23.6",
-    "mocha-multi-reporters": "1.1.7",
+    "mocha-junit-reporter": "2.0.0",
     "mochawesome": "6.1.1",
     "mochawesome-merge": "4.1.0",
     "mochawesome-report-generator": "5.1.0",
@@ -41,7 +39,11 @@
     "cy:run:rarebreed": "cypress run --spec 'cypress/integration/RG4SB/*'",
     "cy:test:slack": "yarn cy:run:randr:pr && npx cypress-slack-reporter",
     "cy:run:record": "cypress run --record --key 10a69ec4-e421-43a7-abef-f8d5ff6832e5",
-    "cy:run:staging": "cypress run -c cypress.staging.json"
+    "cy:run:staging": "cypress run -c cypress.staging.json",
+    "cy:run:pass": "cypress run --spec 'cypress/integration/pass/*'",
+    "cy:run:fail": "cypress run --spec 'cypress/integration/fail/*'",
+    "cy:run:error": "cypress run --spec 'cypress/integration/error/*'",
+    "clear:reports": "rm -rf ./cypress/reports/mocha "
   },
   "repository": {
     "type": "git",
